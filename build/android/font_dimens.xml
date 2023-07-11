@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Tue, 11 Jul 2023 12:07:30 GMT
+-->
+<resources>
+  <dimen name="size_font_caption">192.00sp</dimen>
+  <dimen name="size_font_body">224.00sp</dimen>
+  <dimen name="size_font_body_medium">256.00sp</dimen>
+  <dimen name="size_font_body_large">288.00sp</dimen>
+  <dimen name="size_font_sub_header">320.00sp</dimen>
+  <dimen name="size_font_subtitle2">384.00sp</dimen>
+  <dimen name="size_font_subtitle">480.00sp</dimen>
+  <dimen name="size_font_title3">576.00sp</dimen>
+  <dimen name="size_font_title2">768.00sp</dimen>
+  <dimen name="size_font_title1">960.00sp</dimen>
+  
+</resources>
