@@ -2,7 +2,7 @@
   "color": {
     "HUI": {
       "white": {
-        "value": "#918989",
+        "value": "#ffffff",
         "type": "color"
       },
       "black": {
@@ -1248,43 +1248,43 @@
       }
     },
     "fontSize": {
-      "Caption": {
+      "0": {
         "value": "12",
         "type": "fontSizes"
       },
-      "Body": {
+      "1": {
         "value": "14",
         "type": "fontSizes"
       },
-      "BodyMedium": {
+      "2": {
         "value": "16",
         "type": "fontSizes"
       },
-      "BodyLarge": {
+      "3": {
         "value": "18",
         "type": "fontSizes"
       },
-      "SubHeader": {
+      "4": {
         "value": "20",
         "type": "fontSizes"
       },
-      "Subtitle2": {
+      "5": {
         "value": "24",
         "type": "fontSizes"
       },
-      "Subtitle": {
+      "6": {
         "value": "30",
         "type": "fontSizes"
       },
-      "Title3": {
+      "7": {
         "value": "36",
         "type": "fontSizes"
       },
-      "Title2": {
+      "8": {
         "value": "48",
         "type": "fontSizes"
       },
-      "Title1": {
+      "9": {
         "value": "60",
         "type": "fontSizes"
       }
