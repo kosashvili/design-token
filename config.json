@@ -2,20 +2,22 @@
     "source": ["tokens/**/*.json"],
     "platforms": {
         "scss": {
-          "transformGroup": "custom/scss",
+          "transformGroup": "scss",
           "buildPath": "dist/scss/",
           "files": [
             {
-              "destination": "_variables.scss",
-              "format": "scss/mixins"
+                "destination": "_variables.scss",
+                "format": "custom/scss-mixins"
             }
           ]
         }
       },
       "transforms": {
-        "custom/scss": {
-          "type": "value",
-          "transformer": "scss/mixin"
+        "custom/scss-mixins": {
+          "type": "custom",
+          "files": [
+            "helpers/scss-mixin-template.js"
+          ]
         }
       },
       "formats": {
