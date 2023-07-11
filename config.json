@@ -10,8 +10,8 @@
             "format": "scss/variables"
           },
           {
-            "destination": "_mixin.scss",
-            "format": "scss/mixin"
+            "destination": "_mixins.scss",
+            "format": "scss/mixins"
           }
         ]
       },
