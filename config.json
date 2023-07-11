@@ -1,49 +1,40 @@
 {
-    "source": ["tokens/*.json"],
+    "source": ["tokens/**/*.json"],
     "platforms": {
       "scss": {
         "transformGroup": "scss",
-        "buildPath": "build/",
+        "buildPath": "dist/scss/",
         "files": [
           {
-            "format": "scss/variables",
-            "destination": "_variables.scss"
+            "destination": "_variables.scss",
+            "format": "scss/variables"
           },
           {
-            "format": "scss/mixins",
-            "destination": "_mixins.scss"
+            "destination": "_mixins.scss",
+            "format": "scss/mixin"
           }
         ]
       },
-      "css": {
-        "transformGroup": "css",
-        "buildPath": "build/",
+      "swiftui": {
+        "transformGroup": "swift",
+        "buildPath": "dist/swiftui/",
         "files": [
           {
-            "format": "css/variables",
-            "destination": "variables.css"
+            "destination": "StyleDictionary.swift",
+            "format": "swift/swiftui"
           }
         ]
       },
-      "android": {
+      "compose": {
         "transformGroup": "android",
-        "buildPath": "build/android/",
+        "buildPath": "dist/compose/",
         "files": [
           {
-            "format": "android/xml",
-            "destination": "values/colors.xml"
-          }
-        ]
-      },
-      "ios": {
-        "transformGroup": "ios",
-        "buildPath": "build/ios/",
-        "files": [
-          {
-            "format": "ios/swift",
-            "destination": "StyleDictionary.swift"
+            "destination": "Theme.kt",
+            "format": "android/compose"
           }
         ]
       }
     }
   }
+  
