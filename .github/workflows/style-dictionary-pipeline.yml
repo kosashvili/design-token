@@ -31,3 +31,10 @@ jobs:
           git add .
           git commit -m "Updated style dictionary"
           git push
+
+      - name: Merge token branch into main
+        run: |
+          git fetch
+          git checkout main
+          git merge token --no-edit
+          git push

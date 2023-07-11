@@ -1,0 +1,49 @@
+{
+    "source": ["tokens/*.json"],
+    "platforms": {
+      "scss": {
+        "transformGroup": "scss",
+        "buildPath": "build/",
+        "files": [
+          {
+            "format": "scss/variables",
+            "destination": "_variables.scss"
+          },
+          {
+            "format": "scss/mixins",
+            "destination": "_mixins.scss"
+          }
+        ]
+      },
+      "css": {
+        "transformGroup": "css",
+        "buildPath": "build/",
+        "files": [
+          {
+            "format": "css/variables",
+            "destination": "variables.css"
+          }
+        ]
+      },
+      "android": {
+        "transformGroup": "android",
+        "buildPath": "build/android/",
+        "files": [
+          {
+            "format": "android/xml",
+            "destination": "values/colors.xml"
+          }
+        ]
+      },
+      "ios": {
+        "transformGroup": "ios",
+        "buildPath": "build/ios/",
+        "files": [
+          {
+            "format": "ios/swift",
+            "destination": "StyleDictionary.swift"
+          }
+        ]
+      }
+    }
+  }
