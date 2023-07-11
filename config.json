@@ -10,7 +10,7 @@
             "format": "scss/variables"
           },
           {
-            "destination": "_mixins.scss",
+            "destination": "_mixin.scss",
             "format": "scss/mixin"
           }
         ]
