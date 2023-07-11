@@ -26,8 +26,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "<>"
+          git config --global kosashvilid "GitHub Actions"
+          git config --global Kosashvilid@gmail.com "<>"
           git add .
           git commit -m "Updated style dictionary"
           git push
