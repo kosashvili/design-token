@@ -1,7 +1,0 @@
-/* SCSS Mixin Template */
-
-<% _.forEach(tokens, function(token) { %>
-@mixin <%= token.name %> {
-  <%= token.name %>: <%= token.value %>;
-}
-<% }) %>

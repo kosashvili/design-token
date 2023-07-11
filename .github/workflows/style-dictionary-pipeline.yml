@@ -13,21 +13,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
+      - name: Install Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '18.12.0'
 
-      - name: Install Style Dictionary
-        run: npm install style-dictionary@latest
+      - name: Install dependencies
+        run: npm ci
 
       - name: Build Style Dictionary
         run: npx style-dictionary build
 
       - name: Commit and push changes
         run: |
-          git config --global kosashvili "GitHub Actions"
-          git config --global Kosashvilid@gmail.com "<>"
+          git config --global user.name "kosashvili"
+          git config --global user.email "kosashvilid@gmail.com"
           git add .
           git commit -m "Updated style dictionary"
           git push
