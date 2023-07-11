@@ -63,4 +63,3 @@ Copy code
 In this example README file, you can provide an introduction to your Style Dictionary project, instructions for getting started, installation steps, details on how to build the Style Dictionary, a list of supported platforms, customization guidelines, and information on contributing and licensing.
 
 Feel free to modify the content and structure of the README file to best suit your project's needs and provide relevant information for users and contributors.
-david 
